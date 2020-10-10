@@ -76,22 +76,22 @@
 	<blockquote>
 	<p> 注：<strong>代码仅供参考，不只有一种解法。</strong> </p>
 	</blockquote>
-	<pre><code>
+<pre><code>
 #include <iostream>
 using namespace std;
 int main() {
- int a,b;
- char c;
- cin>>a>>b>>c;
- switch(c) {
- case'+':cout<<a+b;break;
- case'-':cout<<a-b;break;
- case'*':cout<<a*b;break;
- case'/':if(b==0) {cout<<"Divided by zero";break;}
- else {cout<<a/b;break;}
- default:cout<<"Invalid operator";
- }
- return 0;
+	int a,b;
+	char c;
+	cin>>a>>b>>c;
+	switch(c) {
+		case'+':cout<<a+b;break;
+ 		case'-':cout<<a-b;break;
+ 		case'*':cout<<a*b;break;
+ 		case'/':if(b==0) {cout<<"Divided by zero";break;}
+ 		else {cout<<a/b;break;}
+ 		default:cout<<"Invalid operator";
+ 	}
+ 	return 0;
 }
 
 </code></pre>
