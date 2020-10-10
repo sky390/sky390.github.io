@@ -77,19 +77,19 @@
 	<p> 注：<strong>代码仅供参考，不只有一种解法。</strong> </p>
 	</blockquote>
 	<pre><code>
-#include &amp;lt;iostream&amp;gt;
+#include <iostream>
 using namespace std;
-int main() {&lt;!-- --&gt;
-int a,b;
+int main() {
+ int a,b;
  char c;
- cin&amp;gt;&amp;gt;a&amp;gt;&amp;gt;b&amp;gt;&amp;gt;c;
- switch(c) {&lt;!-- --&gt;
- case&#39;+&#39;:cout&amp;lt;&amp;lt;a+b;break;
- case&#39;-&#39;:cout&amp;lt;&amp;lt;a-b;break;
- case&#39;*&#39;:cout&amp;lt;&amp;lt;a*b;break;
- case&#39;/&#39;:if(b==0) {&lt;!-- --&gt;cout&amp;lt;&amp;lt;&quot;Divided by zero&quot;;break;}
- else {&lt;!-- --&gt;cout&amp;lt;&amp;lt;a/b;break;}
- default:cout&amp;lt;&amp;lt;&quot;Invalid operator&quot;;
+ cin>>a>>b>>c;
+ switch(c) {
+ case'+':cout<<a+b;break;
+ case'-':cout<<a-b;break;
+ case'*':cout<<a*b;break;
+ case'/':if(b==0) {cout<<"Divided by zero";break;}
+ else {cout<<a/b;break;}
+ default:cout<<"Invalid operator";
  }
  return 0;
 }
