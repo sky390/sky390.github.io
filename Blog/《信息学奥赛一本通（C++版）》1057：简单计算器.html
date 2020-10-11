@@ -76,21 +76,21 @@
 	<blockquote>
 	<p> 注：<strong>代码仅供参考，不只有一种解法。</strong> </p>
 	</blockquote>
-<pre><code>#include <iostream>
+<pre><code>#include &lt;iostream&gt;
 using namespace std;
 int main() {
 	int a,b;
 	char c;
-	cin>>a>>b>>c;
-	switch(c) {
-		case'+':cout<<a+b;break;
- 		case'-':cout<<a-b;break;
- 		case'*':cout<<a*b;break;
- 		case'/':if(b==0) {cout<<"Divided by zero";break;}
- 		else {cout<<a/b;break;}
- 		default:cout<<"Invalid operator";
+	cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+ 	switch(c) {
+ 		case&#39;+&#39;:cout&lt;&lt;a+b;break;
+ 		case&#39;-&#39;:cout&lt;&lt;a-b;break;
+ 		case&#39;*&#39;:cout&lt;&lt;a*b;break;
+ 		case&#39;/&#39;:if(b==0) {cout&lt;&lt;&quot;Divided by zero&quot;;break;}
+ 		else {cout&lt;&lt;a/b;break;}
+ 		default:cout&lt;&lt;&quot;Invalid operator&quot;;
  	}
- 	return 0;
+	return 0;
 }
 </code></pre>
           	</article>
